@@ -5,13 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Delius Swash Caps', cursive;
-    font-family: 'Bubbler One', sans-serif;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Delius Swash Caps', cursive;
-    font-family: 'Fredoka One', cursive;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Work Sans', sans-serif;
     font-size: 67%;
     box-sizing: border-box;
 }
@@ -39,12 +33,12 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    background-color: #A79CAE;
+    background-color: #746c79;
     border-radius: 10px;
     padding: 12px 34px;
     margin-top: 3rem;
     margin-right: 1rem;
-    border: 2px solid #A79CAE;
+    border: 2px solid #746c79;
     position: relative;
     cursor: pointer;
     font-size: 1.2rem;
@@ -57,12 +51,12 @@ body {
     border: 2px solid #9E4D79;
     background-color: #9E4D79;
     transition: 0.5s;
-    color: #A79CAE;
+    color: #746c79;
     
 }
 
 .button a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-decoration: none;
     color: #fff;
     font-family: 'Delius Swash Caps', cursive;
@@ -72,13 +66,13 @@ body {
 .openButton {
     display: inline-block;
     text-decoration: none;
-    color: #A79CAE;
+    color: #746c79;
     background-color: transparent;
     border-radius: 10px;
     padding: 12px 34px;
     margin-top: 3rem;
     margin-right: 1rem;
-    border: 2px solid #A79CAE;
+    border: 2px solid #746c79;
     position: relative;
     cursor: pointer;
     font-size: 1.2rem;
@@ -90,9 +84,9 @@ body {
 
 
 .openButton a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-decoration: none;
-    color: #A79CAE;
+    color: #746c79;
     font-family: 'Delius Swash Caps', cursive;
     letter-spacing: 0.2rem;
 }
@@ -114,8 +108,8 @@ body {
 }
 
 .importantButton:hover {
-    border: 2px solid #A79CAE;
-    background-color: #A79CAE;
+    border: 2px solid #746c79;
+    background-color: #746c79;
     transition: 0.5s;
 }
 
@@ -158,7 +152,7 @@ body {
 .scrolButton {
     display: inline-block;
     text-decoration: none;
-    color: #A79CAE; 
+    color: #746c79; 
     background-color: #FAF5F0;
     border-radius: 50%;
     padding: 20px 20px;
@@ -171,13 +165,13 @@ body {
 h1 {
     font-size: 3rem;
     font-family: 'Delius Swash Caps', cursive;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 h2 {
     font-size: 2.5rem;
     font-family: 'Delius Swash Caps', cursive;
-    font-weight: 100;
+    font-weight: 400;
     padding-top: 10rem;
     padding-bottom: 4rem;
     text-align: center;
@@ -186,15 +180,15 @@ h2 {
 h3 {
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
 p {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
 
     margin-top: 3rem;
 
@@ -266,7 +260,7 @@ nav .fa-solid {
 
     .navigationLinks {
         position: fixed;
-        background: #A79CAE;
+        background: #746c79;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -345,6 +339,11 @@ nav .fa-solid {
     font-family: 'Bubbler One', sans-serif;
 }
 
+.aboveFoldIntroduction p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
 .aboveFoldUSPs {
     display: block;
     margin-top: 3rem;
@@ -353,6 +352,10 @@ nav .fa-solid {
 .usp {
     display: flex;
     margin-bottom: 0.5rem;
+}
+
+.usp h3 {
+    font-size: 1.5rem;
 }
 
 .uspColumn {
@@ -491,6 +494,9 @@ nav .fa-solid {
 
 .importantDetails {
     text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .importantDetails p {
@@ -511,7 +517,7 @@ nav .fa-solid {
 .importantPurpleArea {
     width: 227.5%;
     height: 70vh;
-    background-color: #A79CAE;
+    background-color: #746c79;
     grid-column: 3 / 5;
 }
 
@@ -611,7 +617,7 @@ nav .fa-solid {
     margin-left: 1rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .reasonImage {
@@ -670,6 +676,8 @@ nav .fa-solid {
     padding-bottom: 12rem;
 
     background-color: #FFE5D9;
+
+    min-height: 70vh;
 }
 
 .testimonial12ColumnGrid a {
@@ -698,8 +706,9 @@ nav .fa-solid {
 }
 
 .testimonialDetails {
-    background-image: linear-gradient(rgba(167, 156, 174, 0.65), rgba(167, 156, 174, 0.65)), url(Images/backgroundTestimonials.jpg);
+    background-image: linear-gradient(rgba(167, 156, 174, 0.8), rgba(167, 156, 174, 0.8)), url(Images/backgroundTestimonials.jpg);
     background-size: cover;
+    background-position: center;
 
     grid-column: 3 / span 20;
     grid-row: 1 / span 8;
@@ -707,6 +716,9 @@ nav .fa-solid {
     padding: 3rem;
 
     text-align: center;
+
+    display: flex;
+    align-items: center;
 }
 
 .testimonial12ColumnGrid #leftButton {
@@ -726,17 +738,17 @@ nav .fa-solid {
     z-index: 1;
 }
 
-.testimonialDetails p {
-    font-size: 1.4rem;
+.testimonialDetails div p {
+    font-size: 1.6rem;
     color: white;
-    font-weight: 300;
-    line-height: 2rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-.testimonialDetails h3 {
-    font-size: 1.4rem;
+.testimonialDetails div h3 {
+    font-size: 1.8rem;
     color: #9E4D79;
     font-weight: 500;
     margin-top: 1rem;
@@ -790,7 +802,7 @@ nav .fa-solid {
 }
 
 .service {
-    background-color: #A79CAE;
+    background-color: #746c79;
     height: 20rem;
     position: relative;
     width: 100%;
@@ -814,8 +826,8 @@ nav .fa-solid {
     position: absolute;
     width: 100%;
     height: 20rem;
-    background-color: #A79CAE;
-    opacity: 0.65;
+    background-color: #746c79;
+    opacity: 0.8;
     top: 0;
     left: 0;
 }
@@ -908,7 +920,7 @@ nav .fa-solid {
 .procesBackground {
     background-image: linear-gradient(rgba(167, 156, 174, 0.65), rgba(167, 156, 174, 0.65)), url(Images/backgroundProcess.jpg);
     
-    background-color: #A79CAE;
+    background-color: #746c79;
 
     width: 100%;
     height: auto;
@@ -974,6 +986,7 @@ nav .fa-solid {
 .procesTitleDetails h2 {
     padding: 0;
     margin-right: 1rem;
+    font-weight: 500;
     color: #697978;
     font-family: 'Delius Swash Caps', cursive;
     font-size: 4rem;
@@ -984,9 +997,10 @@ nav .fa-solid {
 }
 
 .procesTitleDetails h3 {
-    color: #A79CAE;
+    color: #746c79;
     font-size: 1.6rem;
     line-height: 2rem;
+    font-weight: 500;
 }
 
 @media(max-width: 1000px) {
@@ -1044,11 +1058,14 @@ nav .fa-solid {
 
 .callToActionDetails p {
     margin-bottom: 3rem;
+    font-weight: 400;
+    line-height: 2rem;
+
     
 }
 
 .callToActionDetails p span {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -1072,7 +1089,7 @@ nav .fa-solid {
 }
 
 .blog {
-    background-color: #A79CAE;
+    background-color: #746c79;
     width: 100%;
     min-height: 100%;
     position: relative;
@@ -1152,7 +1169,7 @@ nav .fa-solid {
 
 .blogUnderPart {
     height: 25rem;
-    background-color: #A79CAE;
+    background-color: #746c79;
 }
 
 .blogUnderPart h3 {
@@ -1305,7 +1322,7 @@ nav .fa-solid {
 /* FOOTER SECTION */
 
 footer {
-    background-color: #A79CAE;
+    background-color: #746c79;
     padding-top: 8rem;
     padding-bottom: 3rem;
 }
@@ -1345,11 +1362,11 @@ footer ul li p {
 }
 
 footer ul li a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: white;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
     transition: 0.3s;
 }
 
@@ -1420,7 +1437,7 @@ footer ul li a:hover {
 .footerBottomPart p {
     color: white;
     padding-left: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
 }
 
